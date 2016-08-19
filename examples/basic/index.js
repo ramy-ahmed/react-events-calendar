@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from "react-dom";
 import moment from 'moment';
 import './style.scss';
-import ReactCalendar from 'react-calendar';
+import ReactEventsCalendar from 'react-events-calendar';
 
 class BasicExample extends React.Component {
 
@@ -92,10 +92,10 @@ class BasicExample extends React.Component {
 
         return (
             <div>
-                <ReactCalendar ref="calendar"
-                               events={this.state.events}
-                               onDateSelect={this.handleSelectedDate}
-                               onMonthChange={this.handleMonthChange}
+                <ReactEventsCalendar ref="calendar"
+                                     events={this.state.events}
+                                     onDateSelect={this.handleSelectedDate}
+                                     onMonthChange={this.handleMonthChange}
                 />
 
                 {events}

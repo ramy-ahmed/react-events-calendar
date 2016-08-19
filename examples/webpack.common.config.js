@@ -18,7 +18,7 @@ module.exports = {
 
     resolve: {
         alias: {
-            'react-calendar': '../../src/Calendar'
+            'react-events-calendar': '../../src/Calendar'
         },
 
         extensions: [

@@ -1,7 +1,15 @@
-# react-calendar
+# react-events-calendar
 Events calendar for React.
 
 **Work in progress**
+
+## Installation
+The package can be installed via NPM
+
+```
+npm install react-events-calendar --save
+```
+
 
 ## Usage
 
@@ -35,19 +43,19 @@ See [Examples](examples/) for more details.
 
 ![Month View][1]  
 
-[1]: https://raw.githubusercontent.com/almeidarruben/react-calendar/master/screenshots/month_view.png
+[1]: https://raw.githubusercontent.com/almeidarruben/react-events-calendar/master/screenshots/month_view.png
 
 ### Week view
 
 ![Week View][2]  
 
-[2]: https://raw.githubusercontent.com/almeidarruben/react-calendar/master/screenshots/week_view.png
+[2]: https://raw.githubusercontent.com/almeidarruben/react-events-calendar/master/screenshots/week_view.png
 
 ### Day view
 
 ![Day View][3]  
 
-[3]: https://raw.githubusercontent.com/almeidarruben/react-calendar/master/screenshots/day_view.png
+[3]: https://raw.githubusercontent.com/almeidarruben/react-events-calendar/master/screenshots/day_view.png
 
 ## TODO
 - Highlight current day on week view

@@ -13,7 +13,7 @@ process.env.BABEL_ENV = TARGET;
 
 const common = {
     entry: {
-        'react-calendar': path.join(__dirname, '../src/Calendar')
+        'react-events-calendar': path.join(__dirname, '../src/Calendar')
     },
 
     output: {
