@@ -1,6 +1,6 @@
 {
   "name": "react-events-calendar",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0-beta.2",
   "description": "React Events Calendar",
   "scripts": {
     "dev": "webpack --progress --display-error-details --config webpack/common.config.js --watch",
