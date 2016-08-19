@@ -1,5 +1,6 @@
 # react-calendar
-Events calendar for React
+Events calendar for React.
+
 **Work in progress**
 
 ## Usage
@@ -30,13 +31,19 @@ See [Examples](examples/) for more details.
 - **getEvents(date)** Return events for a given date
 
 ## Screenshots
+### Month view
+
 ![Month View][1]  
 
 [1]: https://raw.githubusercontent.com/almeidarruben/react-calendar/master/screenshots/month_view.png
 
+### Week view
+
 ![Week View][2]  
 
 [2]: https://raw.githubusercontent.com/almeidarruben/react-calendar/master/screenshots/week_view.png
+
+### Day view
 
 ![Day View][3]  
 
