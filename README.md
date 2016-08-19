@@ -14,15 +14,15 @@ npm install react-events-calendar --save
 ## Usage
 
 ```javascript
-import ReactCalendar from 'react-calendar';
+import ReactEventsCalendar from 'react-events-calendar';
 
 ...
 
 render() {
-    <ReactCalendar ref="calendar"
-                   events={this.state.events}
-                   onDateSelect={this.handleSelectedDate}
-                   onMonthChange={this.handleMonthChange}
+    <ReactEventsCalendar ref="calendar"
+                         events={this.state.events}
+                         onDateSelect={this.handleSelectedDate}
+                         onMonthChange={this.handleMonthChange}
     />
 }
 ```
@@ -66,10 +66,11 @@ See [Examples](examples/) for more details.
 ## Contributions
 When contributing, please work on the `src` directory.
 
-### Development mode
-Will run webpack with watch and compile code as it changes
+The following command will run webpack with watch and compile code as it changes.
 
-* `$ npm run dev`
+```
+npm run dev
+```
 
 ## License
 MIT

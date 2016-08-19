@@ -1,7 +1,6 @@
 import React from 'react';
 import moment from 'moment';
 import classNames from 'classnames';
-import './styles/style.scss';
 
 export default class MonthView extends React.Component {
 
